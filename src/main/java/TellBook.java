@@ -36,6 +36,7 @@ public class TellBook {
                 for (String phoneNum: phoneNums) {
                     System.out.println(phoneNum);
                 }
+                break;
             } else if (numIter == phoneBook.size()){
                 System.out.println("Ф.И.О в базе данных отсутствует.");
             }
